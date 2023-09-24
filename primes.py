@@ -13,6 +13,6 @@ def primes(number_of_primes):
     y = 0
     while(len(list) < number_of_primes):
         y += 1
-        if isItPrime(y):
+        if isItPrime(y) == False:
             list.append(y)
     return list
