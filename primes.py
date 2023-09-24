@@ -2,11 +2,10 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def isItPrime(y):
-    for i in range(2, 8):
+    for i in range(2, int(y**0.5) + 1):
         if y % i == 0:
-            return True
-        else:
             return False
+    return True
 
 def primes(number_of_primes):
     list = []
