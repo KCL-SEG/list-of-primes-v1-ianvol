@@ -2,7 +2,7 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def isItPrime(y):
-    for i in range(2, y):
+    for i in range(2, 8):
         if y % i == 0:
             return True
         else:
@@ -11,8 +11,8 @@ def isItPrime(y):
 def primes(number_of_primes):
     list = []
     y = 0
-    while(len(list) < number_of_primes):
+    while(len(primes) < number_of_primes):
         y += 1
         if isItPrime(y):
-            list.append(y)
+            primes.append(y)
     return list
