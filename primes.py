@@ -11,7 +11,7 @@ def isItPrime(y):
 def primes(number_of_primes):
     list = []
     y = 0
-    while(len(primes) < number_of_primes):
+    while(len(list) < number_of_primes):
         y += 1
         if isItPrime(y):
             primes.append(y)
