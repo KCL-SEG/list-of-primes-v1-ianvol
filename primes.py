@@ -9,7 +9,7 @@ def isItPrime(y):
 
 def primes(number_of_primes):
     list = []
-    y = 2
+    y = 0
     while(len(list) < number_of_primes):
         y += 1
         if isItPrime(y):
